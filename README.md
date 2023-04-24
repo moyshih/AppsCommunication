@@ -6,12 +6,12 @@ In addition, there is a server application called AppUiServer, which subscribes 
 **AppX:**
 1. Implements the class Car. Each car has its own properties (type, color, plate number, creation time).
 2. Stores a data collection of cars (list).
-3. Every 500[ms], a new car is created, stored in the appX data structure, and sent to AppY.
+3. Every 500[ms], a new car is created, stored in the appX, and sent to AppY.
 
 **AppY:**
 1. Implements the class Motorcycle. Each motorcycle has its own properties (type, color, plate number, creation time).
 2. Stores a data collection of motorcycles (list).
-3. Every 1000[ms], a new motorcycle is created, stored in the appY data structure, and sent to AppX.
+3. Every 1000[ms], a new motorcycle is created, stored in the appY, and sent to AppX.
 4. appX and appY transmit the data to AppUiServer.
 
 **AppUiServer:**
