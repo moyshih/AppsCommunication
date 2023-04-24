@@ -40,7 +40,7 @@ The apps could be configured by appsettings files.
     - On Windows: Open the start menu and search for "RabbitMQ Service - start". Click on the option to start the service.
     - On other platforms: Open a terminal and run the command rabbitmq-server.
 5. Download This Repository and extract the folders.
-6. **Optionally**, Open the **'AppsCommunication-master/AppsBuild/AppUiServer/appsettings.json'** file and replace the HTTPS URL with other IP address.
+6. **Optionally**, open the **'AppsCommunication-master/AppsBuild/AppUiServer/appsettings.json'** file and replace the HTTPS URL with other IP address.
 7. **Optionally**, open the **'AppX/appsettings.json'** and **'AppY/appsettings.json'** files and modify the configurations as needed.
 8. Run the **'.exe'** files in each extracted folder under **'AppsBuild'** folder (AppX.exe, AppY.exe, AppUiServer.exe).
 9. Open the **'AppUiServer'** console and Ctrl + Left Click on the URL address at the top of the console, or open a web browser and navigate to the URL with the same address as the console is showing (**'https://localhost:7031'** by default).
