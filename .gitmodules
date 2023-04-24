@@ -7,3 +7,15 @@
 [submodule "AppUIServer"]
 	path = AppUIServer
 	url = https://github.com/moyshih/AppUIServer.git
+[submodule "AppsSourceCode/AppX"]
+	path = AppsSourceCode/AppX
+	url = https://github.com/moyshih/AppX.git
+[submodule "AppsSourceCode/AppY"]
+	path = AppsSourceCode/AppY
+	url = https://github.com/moyshih/AppY.git
+[submodule "AppsSourceCode/AppUI"]
+	path = AppsSourceCode/AppUI
+	url = https://github.com/moyshih/AppUI.git
+[submodule "AppsSourceCode/AppUIServer"]
+	path = AppsSourceCode/AppUIServer
+	url = https://github.com/moyshih/AppUIServer.git
