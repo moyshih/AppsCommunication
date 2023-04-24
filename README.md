@@ -32,7 +32,7 @@ In addition, there is a server application called AppUiServer, which subscribes 
 The system provides real-time updates of the cars and motorcycles in the backend, and the frontend displays the data as it is received from the backend via SignalR.
 The apps could be configured by appsettings files.
 
-#  instructions for running the apps
+#  Instructions for running the apps
 1. Download [Erlang](https://www.erlang.org/downloads) and install it **using an administrative account**.
 2. Download RabbitMQ Server from the [official releases page](https://github.com/rabbitmq/rabbitmq-server/releases/tag/v3.11.13). ([Shortcut for Windows](https://github.com/rabbitmq/rabbitmq-server/releases/download/v3.11.13/rabbitmq-server-3.11.13.exe))
 3. Install RabbitMQ Server **using an administrative account**
