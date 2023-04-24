@@ -1,0 +1,9 @@
+[submodule "AppX"]
+	path = AppX
+	url = https://github.com/moyshih/AppX.git
+[submodule "AppY"]
+	path = AppY
+	url = https://github.com/moyshih/AppY.git
+[submodule "AppUIServer"]
+	path = AppUIServer
+	url = https://github.com/moyshih/AppUIServer.git
