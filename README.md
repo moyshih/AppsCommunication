@@ -4,13 +4,13 @@ This repository contains two separate backend applications, appX and appY, which
 In addition, there is a server application called AppUiServer, which subscribes to messages from appX and appY. AppUiServer runs the AppUI frontend application and sends the messages to AppUI via [SignalR](https://dotnet.microsoft.com/en-us/apps/aspnet/signalr).
 
 **AppX:**
-1. Implements the class Car which inherits from Vehicle abstract class hat has type, color, plate number and creation time.
+1. Implements the class Car which inherits from Vehicle abstract class that has type, color, plate number and creation time.
 2. Stores the cars in list.
 3. Every 500[ms], a new car is created, stored in the app, and sent to AppY.
 4. Subscribes for Motorcycles and send them to AppUIServer 
 
 **AppY:**
-1. Implements the class Motorcycle which inherits from Vehicle abstract class hat has type, color, plate number and creation time.
+1. Implements the class Motorcycle which inherits from Vehicle abstract class that has type, color, plate number and creation time.
 2. Stores a data collection of motorcycles (list).
 3. Every 1000[ms], a new motorcycle is created, stored in the app, and sent to AppX.
 4. Subscribes for Cars and send them to AppUIServer 
