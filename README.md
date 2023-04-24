@@ -4,15 +4,16 @@ This repository contains two separate backend applications, appX and appY, which
 In addition, there is a server application called AppUiServer, which subscribes to messages from appX and appY. AppUiServer runs the AppUI frontend application and sends the messages to AppUI via [SignalR](https://dotnet.microsoft.com/en-us/apps/aspnet/signalr).
 
 **AppX:**
-1. Implements the class Car. Each car has its own properties (type, color, plate number, creation time).
-2. Stores a data collection of cars (list).
-3. Every 500[ms], a new car is created, stored in the appX, and sent to AppY.
+1. Implements the class Car which inherits from Vehicle abstract class hat has type, color, plate number and creation time.
+2. Stores the cars in list.
+3. Every 500[ms], a new car is created, stored in the app, and sent to AppY.
+4. Subscribes for Motorcycles and send them to AppUIServer 
 
 **AppY:**
-1. Implements the class Motorcycle. Each motorcycle has its own properties (type, color, plate number, creation time).
+1. Implements the class Motorcycle which inherits from Vehicle abstract class hat has type, color, plate number and creation time.
 2. Stores a data collection of motorcycles (list).
-3. Every 1000[ms], a new motorcycle is created, stored in the appY, and sent to AppX.
-4. appX and appY transmit the data to AppUiServer.
+3. Every 1000[ms], a new motorcycle is created, stored in the app, and sent to AppX.
+4. Subscribes for Cars and send them to AppUIServer 
 
 **AppUiServer:**
 1. Subscribes to messages from appX and appY.
@@ -27,7 +28,7 @@ In addition, there is a server application called AppUiServer, which subscribes 
 5. Prints the amount of motorcycles it received.
 
 The system provides real-time updates of the cars and motorcycles in the backend, and the frontend displays the data as it is received from the backend via SignalR.
-the apps could be configured by appsettings files
+The apps could be configured by appsettings files.
 
 #  instructions for running the apps
 1. Download [Erlang](https://www.erlang.org/downloads) and install it **using an administrative account**.
