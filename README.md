@@ -32,13 +32,13 @@ the apps could be configured by appsettings files
 #  instructions for running the apps
 1. Download [Erlang](https://www.erlang.org/downloads) and install it **using an administrative account**.
 2. Download RabbitMQ Server from the [official releases page](https://github.com/rabbitmq/rabbitmq-server/releases/tag/v3.11.13). ([Shortcut for Windows](https://github.com/rabbitmq/rabbitmq-server/releases/download/v3.11.13/rabbitmq-server-3.11.13.exe))
-4. Install RabbitMQ Server **using an administrative account**
-5. Start the RabbitMQ service:
+3. Install RabbitMQ Server **using an administrative account**
+4. Start the RabbitMQ service:
     - On Windows: Open the start menu and search for "RabbitMQ Service - start". Click on the option to start the service.
     - On other platforms: Open a terminal and run the command rabbitmq-server.
-6. Download This Repository and extract the folders.
-7. Open the **'AppsCommunication-master/AppsBuild/AppUiServer/appsettings.json'** file and replace the URLs with your IP address.
-8. Optionally, open the **'AppX/appsettings.json'** and **'AppY/appsettings.json'** files and modify the configurations as needed
-9. Run the **'.exe'** files in each extracted folder under **'AppsBuild'** folder (AppX.exe, AppY.exe, AppUiServer.exe).
-10. Open the **'AppUiServer'** console and Ctrl + Left Click on the URL address at the top of the console, or open a web browser and navigate to the URL with the same address as the console is showing.
-12. The dashboard should display the current status of the system, including the last car, last motorcycle and number of cars and motorcycles received.
+5. Download This Repository and extract the folders.
+6. Open the **'AppsCommunication-master/AppsBuild/AppUiServer/appsettings.json'** file and replace the URLs with your IP address.
+7. Optionally, open the **'AppX/appsettings.json'** and **'AppY/appsettings.json'** files and modify the configurations as needed.
+8. Run the **'.exe'** files in each extracted folder under **'AppsBuild'** folder (AppX.exe, AppY.exe, AppUiServer.exe).
+9. Open the **'AppUiServer'** console and Ctrl + Left Click on the URL address at the top of the console, or open a web browser and navigate to the URL with the same address as the console is showing.
+10. The dashboard should display the current status of the system, including the last car, last motorcycle and number of cars and motorcycles received.
